@@ -1,0 +1,11 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "jobseed-app",
+  "compatibility_date": "2024-01-01",
+  "compatibility_flags": ["nodejs_compat"],
+  "pages_build_output_dir": "./dist",
+  "vars": {
+    "STRIPE_PRICE_ID_PREMIUM": "price_H5ggY...", 
+    "STRIPE_PRICE_ID_CREDITS": "price_12345..."
+  }
+}
